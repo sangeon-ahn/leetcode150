@@ -53,10 +53,10 @@ class Solution:
                 # st += 1 해줌으로써 다음 문자 보러 가기
                 st += 1
     
-        return "" if minLen == float('inf') else s[stAns:enAns + 1]
+        return "" if minLen == float('inf') else s[stAns:enAns]
     
-s = "ADOBECODEBANC"
-t = "ABC"
+s = "ab"
+t = "a"
 sol = Solution()
 ans = sol.minWindow(s, t)                
 
